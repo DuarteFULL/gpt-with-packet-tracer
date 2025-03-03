@@ -11,5 +11,3 @@ completion = gpt.chat.completions.create(
 )
 
 print(completion.choices[0].message.content)
-
-pass
