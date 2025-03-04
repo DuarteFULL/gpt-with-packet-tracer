@@ -6,6 +6,12 @@
 # python -m venv venvgptpacket
 #
 #  
-# Ative o Ambiente Virtual
-# source venvgptpacket\Scripts\activate
+# Ative o Ambiente Virtual (sempre que for rodar a aplicação)
+# Linux: source venvgptpacket\Scripts\activate
+# Windows: venvgptpacket\Scripts\activate
+# 
+# Instale a biblioteca OpenAI (apenas uma vez)
+# pip install openai
+
+
 

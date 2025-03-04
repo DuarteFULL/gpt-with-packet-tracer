@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-gpt = OpenAI(api_key='usar uma variável de ambiente')
+gpt = OpenAI()
 
 completion = gpt.chat.completions.create(
     model='gpt-3.5-turbo',
